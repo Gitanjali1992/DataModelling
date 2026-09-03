@@ -1,0 +1,6 @@
+currency_code,currency_name,symbol,usd_exchange_rate,decimals
+USD,US Dollar,$,1.0,2
+CAD,Canadian Dollar,CA$,0.72,2
+MXN,Mexican Peso,MX$,0.055,2
+GBP,British Pound,£,1.27,2
+EUR,Euro,€,1.08,2

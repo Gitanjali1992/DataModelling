@@ -1,0 +1,11 @@
+id,name,country_id,country_name,continent,currency_code
+1,North Judithbury,1,United States,North America,USD
+2,East Jill,2,Canada,North America,CAD
+3,New Roberttown,1,United States,North America,USD
+4,East Jessetown,3,Mexico,North America,MXN
+5,Lake Debra,5,Germany,Europe,EUR
+6,Robinsonshire,1,United States,North America,USD
+7,Lisatown,4,United Kingdom,Europe,GBP
+8,Lake Roberto,6,France,Europe,EUR
+9,Ericmouth,2,Canada,North America,CAD
+10,North Noahstad,3,Mexico,North America,MXN

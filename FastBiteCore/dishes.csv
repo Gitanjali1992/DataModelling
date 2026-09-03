@@ -1,0 +1,201 @@
+id,name,price,restaurant_id,category_id
+1,Grilled Vegetable Skewers,10.13,27,3
+2,Spaghetti Carbonara,9.69,22,2
+3,Double Beef Burger,12.32,33,5
+4,Cobb Salad,8.22,18,6
+5,Dish,18.9,1,7
+6,Vegan Chili,10.14,19,3
+7,Apple Strudel,4.72,47,4
+8,Lentil Soup,11.75,20,3
+9,Greek Salad,11.2,38,6
+10,Bacon Burger,10.8,38,5
+11,Falafel Bowl,10.02,43,3
+12,Classic Cheeseburger,9.02,32,5
+13,Dish,13.37,10,8
+14,Mushroom Swiss Burger,10.43,29,5
+15,Cobb Salad,8.46,35,6
+16,Penne Arrabbiata,12.99,31,2
+17,Dish,15.11,23,8
+18,Tagliatelle al Ragù,9.1,22,2
+19,Falafel Bowl,8.3,36,3
+20,Cheesecake,6.98,49,4
+21,Dish,11.1,35,7
+22,Greek Salad,8.16,25,6
+23,Tagliatelle al Ragù,15.04,30,2
+24,Dish,14.17,21,7
+25,Diavola,8.43,13,1
+26,BBQ Burger,8.25,45,5
+27,Lasagna,11.63,16,2
+28,Dish,8.66,37,8
+29,Caprese Salad,10.72,25,6
+30,Bacon Burger,13.31,15,5
+31,Dish,7.1,50,7
+32,Caprese Salad,8.82,27,6
+33,Ravioli Ricotta e Spinaci,12.07,3,2
+34,Crème Brûlée,4.69,21,4
+35,Dish,8.48,48,8
+36,Napolitana,12.02,31,1
+37,Cobb Salad,11.8,46,6
+38,Crème Brûlée,7.44,25,4
+39,Penne Arrabbiata,12.26,25,2
+40,Dish,16.75,43,8
+41,BBQ Burger,12.35,42,5
+42,Dish,13.37,10,7
+43,Ravioli Ricotta e Spinaci,9.92,32,2
+44,Falafel Bowl,13.66,3,3
+45,Diavola,9.99,9,1
+46,Prosciutto e Funghi,12.78,33,1
+47,Mushroom Swiss Burger,11.38,38,5
+48,Dish,7.08,22,8
+49,Spaghetti Carbonara,12.84,7,2
+50,Ravioli Ricotta e Spinaci,13.6,29,2
+51,Tiramisu,7.12,7,4
+52,Vegan Buddha Bowl,13.78,34,3
+53,Dish,8.18,30,7
+54,Dish,18.9,1,8
+55,Caesar Salad,9.91,47,6
+56,Dish,13.37,10,7
+57,Tofu Stir-Fry,8.48,27,3
+58,Dish,16.77,42,7
+59,Fettuccine Alfredo,10.65,10,2
+60,Dish,15.63,5,8
+61,Dish,9.6,31,7
+62,Classic Cheeseburger,11.51,17,5
+63,Diavola,14.95,22,1
+64,Caprese Salad,9.27,40,6
+65,Crème Brûlée,7.27,45,4
+66,Dish,9.26,26,8
+67,Dish,16.77,42,8
+68,Crème Brûlée,5.71,6,4
+69,Caesar Salad,7.05,22,6
+70,Ravioli Ricotta e Spinaci,13.3,44,2
+71,Caprese Salad,10.23,35,6
+72,Caesar Salad,7.53,25,6
+73,Quattro Formaggi,8.19,21,1
+74,Dish,8.35,41,7
+75,Classic Cheeseburger,10.11,46,5
+76,Chocolate Brownie,8.56,49,4
+77,Lasagna,15.69,32,2
+78,Dish,11.1,35,8
+79,Fettuccine Alfredo,12.7,3,2
+80,Cheesecake,4.74,40,4
+81,Diavola,8.41,5,1
+82,Quattro Formaggi,11.54,16,1
+83,Caprese Salad,10.71,41,6
+84,Tiramisu,4.34,44,4
+85,Lentil Soup,12.67,19,3
+86,Apple Strudel,5.72,15,4
+87,Tagliatelle al Ragù,12.8,48,2
+88,Tiramisu,8.72,6,4
+89,Crème Brûlée,5.97,28,4
+90,Panna Cotta,5.49,7,4
+91,Greek Salad,9.15,49,6
+92,Tofu Stir-Fry,11.73,41,3
+93,Pepperoni,14.53,46,1
+94,Double Beef Burger,12.4,7,5
+95,Grilled Vegetable Skewers,11.28,29,3
+96,Tofu Stir-Fry,9.91,11,3
+97,Double Beef Burger,10.53,45,5
+98,Vegan Chili,10.82,20,3
+99,Tagliatelle al Ragù,15.01,2,2
+100,Pepperoni,14.87,3,1
+101,Vegan Chili,13.83,21,3
+102,Diavola,14.28,4,1
+103,Nicoise Salad,11.9,19,6
+104,Tiramisu,8.39,23,4
+105,Waldorf Salad,6.98,24,6
+106,Pepperoni,14.4,28,1
+107,Grilled Vegetable Skewers,11.72,10,3
+108,Bacon Burger,12.87,16,5
+109,Prosciutto e Funghi,14.93,34,1
+110,Grilled Vegetable Skewers,10.13,27,3
+111,Dish,8.66,37,7
+112,Fettuccine Alfredo,11.14,44,2
+113,Ravioli Ricotta e Spinaci,10.48,12,2
+114,Dish,6.75,11,8
+115,Dish,8.5,12,8
+116,Caprese Salad,9.88,6,6
+117,Ravioli Ricotta e Spinaci,11.91,40,2
+118,Dish,14.18,25,8
+119,Chocolate Brownie,7.17,40,4
+120,Quattro Formaggi,8.27,44,1
+121,Classic Cheeseburger,11.7,16,5
+122,Dish,14.01,32,8
+123,Calzone,14.14,38,1
+124,Prosciutto e Funghi,13.61,10,1
+125,Dish,13.88,15,8
+126,Dish,8.18,30,7
+127,Dish,8.35,41,7
+128,Spaghetti Carbonara,14.53,17,2
+129,Dish,8.18,30,8
+130,Dish,6.95,17,8
+131,Ravioli Ricotta e Spinaci,12.06,43,2
+132,Penne Arrabbiata,11.83,1,2
+133,Waldorf Salad,9.48,30,6
+134,Grilled Vegetable Skewers,12.93,19,3
+135,Penne Arrabbiata,12.34,44,2
+136,Lentil Soup,11.93,35,3
+137,Veggie Burger,8.71,11,5
+138,Greek Salad,11.05,5,6
+139,Dish,13.88,29,7
+140,Bacon Burger,8.33,23,5
+141,Dish,19.86,38,8
+142,Dish,16.59,20,7
+143,Spaghetti Carbonara,10.71,41,2
+144,Tagliatelle al Ragù,14.6,28,2
+145,Cheesecake,5.88,45,4
+146,Dish,6.95,17,7
+147,Dish,8.18,30,8
+148,Chocolate Brownie,6.6,20,4
+149,Dish,14.46,13,7
+150,Greek Salad,8.16,25,6
+151,Dish,9.6,31,8
+152,Dish,6.44,7,7
+153,Dish,19.06,16,7
+154,Tagliatelle al Ragù,11.6,25,2
+155,Greek Salad,8.59,37,6
+156,Dish,15.11,23,7
+157,Cobb Salad,6.79,37,6
+158,BBQ Burger,13.71,19,5
+159,Waldorf Salad,9.1,45,6
+160,Grilled Vegetable Skewers,12.93,19,3
+161,Dish,15.58,2,8
+162,Ravioli Ricotta e Spinaci,12.06,43,2
+163,Fettuccine Alfredo,11.96,26,2
+164,Penne Arrabbiata,9.9,18,2
+165,Lasagna,11.37,1,2
+166,Dish,8.66,37,7
+167,Tagliatelle al Ragù,11.97,44,2
+168,Caesar Salad,6.32,50,6
+169,Lentil Soup,9.08,48,3
+170,Quattro Formaggi,14.26,4,1
+171,Cobb Salad,8.26,39,6
+172,Spaghetti Carbonara,9.99,48,2
+173,Dish,14.01,32,7
+174,Greek Salad,7.7,19,6
+175,Dish,7.1,50,7
+176,Margherita,8.81,15,1
+177,Veggie Burger,12.08,39,5
+178,Bacon Burger,8.33,23,5
+179,Caesar Salad,6.54,15,6
+180,Lasagna,13.78,41,2
+181,Chocolate Brownie,6.74,13,4
+182,Falafel Bowl,7.97,40,3
+183,Dish,6.95,17,8
+184,Tiramisu,4.34,44,4
+185,Ravioli Ricotta e Spinaci,9.66,49,2
+186,Cobb Salad,11.06,47,6
+187,Caesar Salad,6.32,50,6
+188,Penne Arrabbiata,15.67,43,2
+189,Mushroom Swiss Burger,12.35,44,5
+190,Cheesecake,7.29,9,4
+191,Dish,8.35,41,7
+192,Diavola,10.32,7,1
+193,Classic Cheeseburger,13.06,41,5
+194,Diavola,10.29,42,1
+195,Vegan Chili,9.96,3,3
+196,BBQ Burger,12.19,20,5
+197,Bacon Burger,10.98,29,5
+198,Cobb Salad,6.04,3,6
+199,Cobb Salad,9.39,38,6
+200,Diavola,11.92,24,1
