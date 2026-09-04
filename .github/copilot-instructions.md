@@ -18,15 +18,35 @@ hierarchy node counts as "complete."
 ## Workflow — five phases, in order
 
 1. **Profile the source** — nulls/completeness, format consistency,
-   referential integrity, PII/confidential screening, candidate KPI list
+   referential integrity, PII/confidential screening, candidate KPI list.
+   Save to `docs/<subject-area>/00-profiling-report.md`
 2. **Conceptual model** — entities and relationships only, no attributes,
-   confirm with the user before moving on
+   confirm with the user before moving on. Save to
+   `docs/<subject-area>/01-conceptual-model.md`
 3. **Logical model** — facts (grain, measures, additivity) and dimensions
-   (attributes, SCD type per attribute, conformed or not)
+   (attributes, SCD type per attribute, conformed or not). Also produce a
+   `.dbml` file for this stage (see the notation doc below). Save to
+   `docs/<subject-area>/02-logical-model.md` (+
+   `02-logical-model.dbml` alongside it)
 4. **Physical model (Snowflake)** — DDL following this repo's naming
-   conventions, crow's foot ERD
+   conventions, crow's foot ERD. Save to
+   `docs/<subject-area>/03-physical-model.md`
 5. **Transformation & KPI documentation** — every KPI and transformation
-   documented twice: plain business language, then exact technical logic
+   documented twice: plain business language, then exact technical logic.
+   Save to `docs/<subject-area>/04-transformation-kpi-specs.md`
+
+## Output location convention
+
+When a phase completes, **write its output as an actual markdown file**
+at the path given above, don't just answer in chat and leave saving it
+to the user. Replace `<subject-area>` with a short slug for whatever's
+being modeled (e.g. `docs/customer-transactions/`). This is a *different*
+`docs/` location from the reference library below — `docs/data-modeling/`
+holds this project's fixed rulebook, while `docs/<subject-area>/` holds
+the per-dataset outputs this rulebook produces. If `docs/<subject-area>/`
+doesn't exist yet, create it. If a file at that path already exists
+(re-running a phase after new information), update it rather than
+creating a duplicate with a different name.
 
 ## Naming conventions (quick reference)
 
@@ -50,7 +70,7 @@ on that part of the task:
 | `01-source-profiling-checklist.md` | Profiling a new source: nulls, format issues, referential integrity, PII screening, KPI discovery |
 | `02-dimensional-modeling-guide.md` | Designing facts/dimensions: grain, additivity, SCD types, conformed dimensions, star vs snowflake |
 | `03-naming-conventions.md` | Full naming standard for schemas, tables, columns, keys, masking objects |
-| `04-notation-and-diagrams.md` | Drawing conceptual/logical/physical ERDs in crow's foot notation |
+| `04-notation-and-diagrams.md` | Drawing conceptual/logical/physical ERDs in crow's foot notation (Mermaid), plus the `.dbml` file format for the logical model |
 | `05-documentation-templates.md` | Writing up the profiling report, model docs, or KPI/transformation specs |
 | `06-clarification-protocol.md` | Full list of situations that require asking before proceeding |
 | `07-hierarchical-dimensions.md` | Modeling a parent-child hierarchy (product tree, org chart, GL accounts) |
