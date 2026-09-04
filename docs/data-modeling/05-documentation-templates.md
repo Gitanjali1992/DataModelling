@@ -4,6 +4,11 @@ Use these templates verbatim (adapt headers as needed) so documentation is
 consistent across datasets and projects. Produce each as a markdown
 artifact so it's saved and shareable, not just conversational output.
 
+Save each completed template to `docs/<subject-area>/` using the file
+names in the phase table in `SKILL.md` (e.g.
+`docs/customer-transactions/00-profiling-report.md`) — see "Output
+location convention" there for the full rule.
+
 ---
 
 ## Template A — Data Profiling & Risk Report (Phase 0 output)
@@ -100,6 +105,11 @@ For each hierarchical dimension, document (per `07-hierarchical-dimensions.md`):
 - `is_complete_hierarchy_flag` definition confirmed: max-depth-reached vs. true-leaf-in-data
 - SCD Type 2 cascade rule confirmed: does a mid-hierarchy change regenerate descendant rows?
 - Which depth fact tables' foreign keys join to (leaf-level vs. intermediate)
+
+## .dbml File
+<embed or link the .dbml file for this logical model — generic/logical
+types, `Note:` fields carrying grain and SCD summaries, per the DBML
+section in `04-notation-and-diagrams.md`>
 ```
 
 ---
