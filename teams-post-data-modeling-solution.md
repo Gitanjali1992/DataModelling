@@ -45,4 +45,6 @@ This isn't just a tidiness choice, it's a deliberate control on context and cost
 
 Practically, that means the assistant stays fast and cheap on simple asks, and only pays the larger context cost when the task genuinely calls for the detailed guidance, for example the dimensional modelling rules when we're actually designing facts and dimensions, or the hierarchy pattern only when a dataset actually has one. It also makes the whole thing far easier to maintain, each reference file can be corrected or extended on its own without touching the rest.
 
+One more detail worth calling out: every stage writes its own output to a predictable spot (`docs/<subject-area>/`, one file per phase, in order), automatically, as it completes each phase. So the profiling report, the conceptual model, the logical model, the physical model, and the KPI documentation all end up as a browsable trail sitting in the repo, rather than something you have to remember to copy out of a chat window.
+
 Happy to share the package with anyone who wants to try it on their own dataset, or walk through how it's structured. Would also love feedback from anyone who tests it, the more datasets it gets run against, the more we can sharpen it as a shared standard.
